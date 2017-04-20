@@ -2,3 +2,13 @@ What happens when you initialize a repository? Why do you need to do it?
 A hidden file named .git will be created in the same directory, which may contain the configuration and commit history of my work. Initializing a repository is the first step to enable the git funcitons on my project.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area is just an intermediate area where the file is added into before a commit is created or before the changes are saved in the repository. I thick it offering the control over the level of which files and which changes the user want to save in a new commit.
+How can you use the staging area to make sure you have one commit per logical change?
+After having a logical change, I could add the changed file into the staging area and then commit it into the repository. Therefore, the recent commit will only contain this logical change.
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+For example, it will be very helpful when I'm going to do some experimental exploration and don't want to change the current commit. So the branch copy the current branch and create a new branch where I can modify the file without changing the files in the main branch.
+How do the diagrams help you visualize the branch structure?
+It can clearly show the traces of each branch so that I can know which commit can not be reachable in which branch
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The differences of two branches on the files will be merged together and in diagram we can clearly see the commits structure of each branch before and after merging 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros are Git will do some processing about the changes of different commits for us and it's faster but sometimes there will be so many conflicts where Git does not know how to deal with 
