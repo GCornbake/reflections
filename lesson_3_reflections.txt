@@ -6,25 +6,27 @@ local?
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
-
-    Fill in your answer here
+	If you manually do the update, you can sync the local hos and the GitHub server properly, otherwise there will be twoo much work if the syncing is not approperatly arranged.
+    
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Fork allows you to copy the repositor form someone else into your account only on Github， Clone allows you to copy the repository from GitHub to the local host or between local host and at the same time, Git will automatically create a remote referring to the repository. And braches are just different versions of your project in your repository on the local host.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    we could know if the repository in the local host is ahead, behind, up-to-date or even out of sync from the remote repository. 
+    So to have a better understanding of the project branches and commits.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Perhaps could we work together regularly in one place or we could communicate with each other via emalis.
+    It is easier when collabrating in a huge and complex project.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    The changes in a separate branch will not affect the master branch which should be stable to work correctly all the time. So when I have some to explore or do some experiment or to pull a request on the GitHub in order to collaberate with other people, I will choose to create a new separate branch. On the ohter hand, making changes in the master baranch will otherwise make things easier but it's not a good way to collaborate on GitHub and versions development.
